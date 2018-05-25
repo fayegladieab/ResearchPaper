@@ -1,30 +1,32 @@
 body{
-	width: 800px;
-	margin: 0 auto;
-	background-image: url("DIY/diyy.png");
-	background-repeat: no-repeat;
-	background-position: center top;
+	width: 90%;
+	margin-left: 1 auto;
+	background-color: #FADBD8;
+	align-items: center;
 }
 img.medium{
-	width: 800px;
+	width: 90%;
 	height: 220px;
 }
 img.pic{
-	width: 25%;
+	width: 90%;
 	vertical-align:middle;
 }
-img.logo{
-	width: 30%;
-	float: right;
+#header{
+	width: 90%;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	text-decoration: none;
 }
 #content {
 	overflow: auto;
-	height: 100%;
+	margin-bottom: 1em;
 }
 #nav{
-	width: 750px; 
-	padding: 15px;
-	margin: 0px auto 0px auto;
+	width: 90%;
+	padding: 0.5em 0;
+	margin-left: 5%;
 	border-top: 2px solid #0000FF;
 	border-bottom: 1px solid #0000FF;
 	text-align: center;
@@ -35,7 +37,7 @@ img.logo{
 #feature{
 	background-color: #FFFFFF;
 	padding: 5px;
-	margin: 5px;
+	margin-left: 5%;
 	font-family: 'Playfair Display', serif;
 	font-size: 15px;
 }
@@ -43,16 +45,20 @@ img.logo{
 	background-color: #FFFFFF;
 	font-family: 'Playfair Display', serif;
 	font-size: 20px;
+	padding: 0.5em 0;
+	margin-left: 5%;
 }
 .colum1, .colum2, .colum3 {
 	background-color: #FFFFFF;
-	width: 300px;
-	float: left;
-	margin: 10px;
+	width: 80%;
+	margin-left: 5%;
 	font-family: 'Playfair Display', serif;
 	font-size: 15px;
 }
 li{
 	display: inline;
 	padding: 5px;
+} img.logo{
+	width: 20%;
+	float: right;	
 }
